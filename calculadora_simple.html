@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Operaciones.js"></script>
+    <title>Calculadora Simple</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="calculadora_simple.html">Calculadora Normal</a></li>
+        <li><a href="calculadora_cientifica.html">Calculadora Cientifica</a></li>
+      </ul>
+    <h1>Calculadora Simple</h1>
+    Valor 1: <input type="text", id="n1">
+    Valor 2: <input type="text", id="n2">
+    <h2>Selecciona tipo de operacion</h2>
+    <form>
+        Select numbers:<br>
+        <select id="operador">
+          <option>Suma</option>
+          <option>Resta</option>
+          <option>Multiplicación</option>
+          <option>División</option>
+        </select>
+      </form>
+    
+    <button type="button" onclick="calculate()">Calcular!</button>
+    <h1 id="resultado"></h1>
+</body>
+</html>
